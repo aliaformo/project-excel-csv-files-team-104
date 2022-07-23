@@ -27,6 +27,9 @@ header {
   box-shadow: 0 0 10px black;
 }
 
+h1 {
+  font-size: 16;
+}
 
 nav li {
   display: inline-block;
@@ -84,12 +87,53 @@ a:hover {
 }
 
 
+/* ==========SlidesShow/Carousel =========== */
 
-/* ======== Sign in Page ======= */
+
+#carouselExampleDark {
+  width: 70% !important;
+  height: 45vh;
+  margin: 2em auto 0px auto;
+  border-radius: 10px;
+}
+
+img {
+  height: 45vh;
+  width: 35vw;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+
+}
+
+h5 {
+  margin-top: 35px;
+  font-size: 20px;
+  text-align: left;
+  border: 8px;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+}
+
+.carousel-caption p {
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  margin-top: 40px;
+  line-height: 1.6;
+  letter-spacing: 1.3px;
+
+}
+
+
+/* ====================================== Sign in up Page ============================================ */
 
 form {
   width: 500px;
-  margin: 5em auto;
+  margin: 0px auto;
+
 
 }
 
@@ -99,11 +143,9 @@ form {
 }
 
 
-/* ======Sign up page ====== */
-
-
 #signupForm {
-  width: 30%;
+  margin-top: 0px;
+  width: 600px;
 }
 
 .card-registration .select-input.form-control[readonly]:not([disabled]) {

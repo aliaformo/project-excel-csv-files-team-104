@@ -1,3 +1,8 @@
+
+
+
+// +++++++++++++++++++++++++++++++++++++++ Files uploading +++++++++++++++++++++++++++++++++++++++++++++++++
+
 function handleFileSelect(evt) {
     var files = evt.target.files;
 
