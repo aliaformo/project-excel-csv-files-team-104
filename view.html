@@ -26,23 +26,42 @@
 
         <div class="drop-zone">
             <span class="drop-zone__prompt">Drop file here, Or click to upload</span>
-            <input type="file" multiple   name="myFile" accept=".xlsx, .xls, .csv" class="drop-zone__input">
+            <input type="file"   name="myFile" accept=".xlsx, .xls, .csv" class="drop-zone__input">
           </div>
         
 
 
-
-
-
-        <div class="output">
-            <output id="list"></output>
-        </div>
         <div class="buttons">
             <button class="btn btn-primary">Highlight Duplicates</button>
             <button class="btn btn-primary">Remove Duplicates</button>
             
         </div>
+        
+        <h2>Compare two files</h2>
+
+        <div class="two-drop-zone">
+
+            <div class="drop-zone-two">
+                <span class="drop-zone__prompt">Drop file here, Or click to upload</span>
+                <input type="file"    name="myFile" accept=".xlsx, .xls, .csv" class="drop-zone__input">
+              </div>
+
+              <div class="drop-zone-two">
+                <span class="drop-zone__prompt">Drop file here, Or click to upload</span>
+                <input type="file"    name="myFile" accept=".xlsx, .xls, .csv" class="drop-zone__input">
+              </div>
+
         </div>
+
+
+        <div class="buttons">
+            <button class="btn btn-primary">Compare files</button>
+            <button class="btn btn-primary">Highlight Duplicates</button>
+            <button class="btn btn-primary">Remove Duplicates</button>
+            
+        </div>
+
+
 
 
 
