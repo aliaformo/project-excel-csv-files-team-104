@@ -24,12 +24,11 @@
     </header>
     <main>
 
-        <div class="mb-3">
-            <label for="formFileMultiple" class="form-label">Upload Excel or CSV files</label>
-            <input class="form-control" type="file" id="files" name="files[]" accept=".xlsx, .xls, .csv"
-                id="formFileMultiple" multiple onchange="handleFileSelect(evt)">
-        </div>
-
+        <div class="drop-zone">
+            <span class="drop-zone__prompt">Drop file here, Or click to upload</span>
+            <input type="file" multiple   name="myFile" accept=".xlsx, .xls, .csv" class="drop-zone__input">
+          </div>
+        
 
 
 
@@ -39,9 +38,9 @@
             <output id="list"></output>
         </div>
         <div class="buttons">
-            <button class="btn btn-primary">Compare files</button>
-            <button class="btn btn-primary">Remove Duplicates</button>
             <button class="btn btn-primary">Highlight Duplicates</button>
+            <button class="btn btn-primary">Remove Duplicates</button>
+            
         </div>
         </div>
 
