@@ -59,15 +59,15 @@ function updateThumbnail(dropZoneElement, file) {
 
   thumbnailElement.dataset.label = file.name;
 
-  // Show thumbnail for image files
+  // Show thumbnail for files
   if (file.type.endsWith(".csv" || ".xlsx" || ".xls")) {
     const reader = new FileReader();
 
     reader.readAsDataURL(file);
     reader.onload = () => {
-      thumbnailElement.style.backgroundImage = `url('${reader.result}')`;
+      thumbnailElement.style.backgroundfile = `url('${reader.result}')`;
     };
   } else {
-    thumbnailElement.style.backgroundImage = null;
+    thumbnailElement.style.backgroundfile = null;
   }
 }
